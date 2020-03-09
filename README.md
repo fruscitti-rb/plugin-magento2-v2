@@ -70,7 +70,17 @@ El campo "Estado de órdenes aprobadas" permite elegir el estado en que quedará
 
 <a name="cybersource"></a>
 ## Prevención de Fraude.
-El plug in soporta las verticales Ticketing y Digitalgoods de Cybersource.
+El plug in soporta la validación mediante Cybersource de las verticales de:
++ Ticketing 
++ Digitalgoods
++ Retail
++ Services
++ Travel
+
+Para configurarlas, en la pantalla de configuración del plugin de Decidir:
++ Elegír Yes en Cybersource habilitado
++ Elegír la vertical que aplica en la lista de selección de Cybersource Segmento
++ Elegír el Deadline de aprobaciones pendientes en días (2 por ejemplo) en Cybersource Deadline
 
 <a name="backend"></a>
 ## Funcionalidades Backend
